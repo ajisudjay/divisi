@@ -25,21 +25,12 @@
                                 <figure class="my-4" style="text-align:center;">
                                     <!-- ======= Iklan Slider Section ======= -->
                                     <section id="hero-slider" class="hero-slider">
-                                        <div class="swiper sliderFeaturedPosts">
-                                            <div class="swiper-wrapper">
-                                                <?php foreach ($iklanutama as $item22) : ?>
-                                                    <div class="swiper-slide">
-                                                        <img src="<?= base_url('content/iklan/' . $item22['file']) ?>" style="height:100px;width:80%;">
-                                                    </div>
-                                                <?php endforeach ?>
-                                            </div>
-                                            <div class="custom-swiper-button-next">
-                                                <span class="bi-chevron-right"></span>
-                                            </div>
-                                            <div class="custom-swiper-button-prev">
-                                                <span class="bi-chevron-left"></span>
-                                            </div>
-                                            <div class="swiper-pagination"></div>
+                                        <div class="swiper-wrapper">
+                                            <?php foreach ($iklanutama as $item22) : ?>
+                                                <div class="swiper-slide">
+                                                    <img src="<?= base_url('content/iklan/' . $item22['file']) ?>" style="height:100px;width:80%;">
+                                                </div>
+                                            <?php endforeach ?>
                                         </div>
                                     </section><!-- End Hero Slider Section -->
                                 </figure>

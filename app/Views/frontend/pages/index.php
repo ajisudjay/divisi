@@ -89,7 +89,7 @@
                                 <div class="col-lg-4 border-start custom-border beritadesktop">
                                     <?php foreach ($berita_1 as $berita1) : ?>
                                         <div class="post-entry-1">
-                                            <a href="berita-detail/<?= $berita1['slug'] ?>"><img src="content/gambar/<?= $berita1['gambar'] ?>" class="rounded-1" style="max-width:100% ;height:150px">
+                                            <a href="berita-detail/<?= $berita1['slug'] ?>"><img src="content/gambar/<?= $berita1['gambar'] ?>" class="rounded-1" style="width:100% ;height:150px">
                                                 <div class="top-leftviews"> <span><?= $berita1['dilihat'] ?> Views</span></div>
                                             </a>
                                             <div class="post-meta"><span class="date"><?= $berita1['tingkat'] ?></span>&bullet;<span class="date"><?= $berita1['kategori'] ?></span>&bullet;<span><?= $berita1['tanggal'] ?></span></div>
@@ -99,7 +99,7 @@
                                     <?php foreach ($berita_3 as $berita_3) : ?>
                                         <div class="post-entry-1">
                                             <a href="berita-detail/<?= $berita_3['slug'] ?>">
-                                                <img src="content/gambar/<?= $berita_3['gambar'] ?>" class="rounded-1" style="max-width:100% ;height:150px">
+                                                <img src="content/gambar/<?= $berita_3['gambar'] ?>" class="rounded-1" style="width:100% ;height:150px">
                                                 <div class="top-leftviews"> <span><?= $berita_3['dilihat'] ?> Views</span></div>
                                             </a>
                                             <div class="post-meta"><span class="date"><?= $berita_3['tingkat'] ?></span>&bullet;<span class="date"><?= $berita_3['kategori'] ?></span>&bullet;<span><?= $berita_3['tanggal'] ?></span></div>
@@ -108,7 +108,7 @@
                                     <?php endforeach ?>
                                     <?php foreach ($berita_5 as $berita5) : ?>
                                         <div class="post-entry-1">
-                                            <a href="berita-detail/<?= $berita5['slug'] ?>"><img src="content/gambar/<?= $berita5['gambar'] ?>" class="rounded-1" style="max-width:100% ;height:150px">
+                                            <a href="berita-detail/<?= $berita5['slug'] ?>"><img src="content/gambar/<?= $berita5['gambar'] ?>" class="rounded-1" style="width:100% ;height:150px">
                                                 <div class="top-leftviews"> <span><?= $berita5['dilihat'] ?> Views</span></div>
                                             </a>
                                             <div class="post-meta"><span class="date"><?= $berita5['tingkat'] ?></span>&bullet;<span class="date"><?= $berita5['kategori'] ?></span>&bullet;<span><?= $berita5['tanggal'] ?></span></div>
@@ -119,7 +119,7 @@
                                 <div class="col-lg-4 border-start custom-border beritadesktop">
                                     <?php foreach ($berita_2 as $berita2) : ?>
                                         <div class="post-entry-1">
-                                            <a href="berita-detail/<?= $berita2['slug'] ?>"><img src="content/gambar/<?= $berita2['gambar'] ?>" class="rounded-1" style="max-width:100% ;height:150px">
+                                            <a href="berita-detail/<?= $berita2['slug'] ?>"><img src="content/gambar/<?= $berita2['gambar'] ?>" class="rounded-1" style="width:100% ;height:150px">
                                                 <div class="top-leftviews"> <span><?= $berita2['dilihat'] ?> Views</span></div>
                                             </a>
                                             <div class="post-meta"><span class="date"><?= $berita2['tingkat'] ?></span>&bullet;<span class="date"><?= $berita2['kategori'] ?></span>&bullet;<span><?= $berita2['tanggal'] ?></span></div>
@@ -128,7 +128,7 @@
                                     <?php endforeach ?>
                                     <?php foreach ($berita_4 as $berita_4) : ?>
                                         <div class="post-entry-1">
-                                            <a href="berita-detail/<?= $berita_4['slug'] ?>"><img src="content/gambar/<?= $berita_4['gambar'] ?>" class="rounded-1" style="max-width:100% ;height:150px">
+                                            <a href="berita-detail/<?= $berita_4['slug'] ?>"><img src="content/gambar/<?= $berita_4['gambar'] ?>" class="rounded-1" style="width:100% ;height:150px">
                                                 <div class="top-leftviews"> <span><?= $berita_4['dilihat'] ?> Views</span></div>
                                             </a>
                                             <div class="post-meta"><span class="date"><?= $berita_4['tingkat'] ?></span>&bullet;<span class="date"><?= $berita_4['kategori'] ?></span>&bullet;<span><?= $berita_4['tanggal'] ?></span></div>
@@ -137,7 +137,7 @@
                                     <?php endforeach ?>
                                     <?php foreach ($berita_6 as $berita_6) : ?>
                                         <div class="post-entry-1">
-                                            <a href="berita-detail/<?= $berita_6['slug'] ?>"><img src="content/gambar/<?= $berita_6['gambar'] ?>" class="rounded-1" style="max-width:100% ;height:150px">
+                                            <a href="berita-detail/<?= $berita_6['slug'] ?>"><img src="content/gambar/<?= $berita_6['gambar'] ?>" class="rounded-1" style="width:100% ;height:150px">
                                                 <div class="top-leftviews"> <span><?= $berita_6['dilihat'] ?> Views</span></div>
                                             </a>
                                             <div class="post-meta"><span class="date"><?= $berita_6['tingkat'] ?></span>&bullet;<span class="date"><?= $berita_6['kategori'] ?></span>&bullet;<span><?= $berita_6['tanggal'] ?></span></div>
@@ -216,33 +216,23 @@
                                         <div class="container-md beritadesktop" data-aos="fade-in">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <div class="swiper sliderFeaturedPosts rounded-4">
-                                                        <div class="swiper-wrapper">
-                                                            <?php foreach ($iklanutama as $item) : ?>
-                                                                <div class="swiper-slide ">
-                                                                    <div class="img-bg-inner">
-                                                                        <img src="content/iklan/<?= $item['file'] ?>" style="height:115px;width:100%;border-radius: 4%;">
-                                                                    </div>
-                                                                    </a>
-                                                                </div>
-                                                            <?php endforeach ?>
+                                                    <?php foreach ($iklanutama as $item) : ?>
+                                                        <div class="swiper-slide ">
+                                                            <div class="img-bg-inner">
+                                                                <img src="content/iklan/<?= $item['file'] ?>" style="height:115px;width:100%;border-radius: 4%;">
+                                                            </div>
+                                                            </a>
                                                         </div>
-                                                        <div class="custom-swiper-button-next">
-                                                            <span class="bi-chevron-right"></span>
-                                                        </div>
-                                                        <div class="custom-swiper-button-prev">
-                                                            <span class="bi-chevron-left"></span>
-                                                        </div>
-                                                        <div class="swiper-pagination"></div>
-                                                    </div>
+                                                    <?php endforeach ?>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> <!-- End Sidebar Section -->
-                                </div>
+                                    </div>
+                                </div> <!-- End Sidebar Section -->
                             </div>
-                        </div> <!-- End .row -->
-                    </div>
+                        </div>
+                    </div> <!-- End .row -->
+                </div>
             </section> <!-- End Post Grid Section -->
             <!-- </div> -->
         </div>
