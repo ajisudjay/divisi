@@ -1,0 +1,31 @@
+Gmail
+Username : divisi.id2022@gmail.com
+Password : Divisiid2022
+date : 29/10/1990
+
+Email Instansi 
+Username : admin@divisi.id
+Password : Divisiid2022
+https://webmail.divisi.id/roundcube/?_task=mail&_mbox=INBOX.Sent#
+
+Hosting : 
+Hoster.co.id
+Username: divisiid
+Password: 523s?F~wGXc8As
+Control Panel URL: https://brawl.extremhost.net/login_up.php
+
+Database 
+database : divisiid_news
+username : divisiid_divisiid
+password : Divisiid2022
+
+Akun :
+username : admin_divisi
+password : admin_divisi
+
+akun root:
+root.dev
+root.dev2022
+
+admin2
+082537
